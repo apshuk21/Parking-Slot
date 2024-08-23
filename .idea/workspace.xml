@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a08005e-ac90-4a24-8d91-edf70f605dff" name="Changes" comment="Refactor the constants into the models">
-      <change afterPath="$PROJECT_DIR$/src/service/strategy/slotAllocationStrategy/SlotAllocationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/GateNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ParkingFloorNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ParkingLotNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ParkingSlotNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/TicketNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/GateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/ParkingFloorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/ParkingLotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/ParkingSlotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/TicketRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/BillCalculationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/strategy/billCalculationStrategy/BillCalculationStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategies/SlotAllocationStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/BaseModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724345747098</updated>
-      <workItem from="1724345748203" duration="4718000" />
+      <workItem from="1724345748203" duration="9796000" />
     </task>
     <task id="LOCAL-00001" summary="Add the models">
       <option name="closed" value="true" />
