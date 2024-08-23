@@ -2,8 +2,8 @@ package models;
 
 import models.constants.ParkingLotStatus;
 import models.constants.VehicleType;
-import strategies.BillCalculationStrategy;
-import strategies.SlotAllocationStrategy;
+import service.strategy.billCalculationStrategy.BillCalculationStrategy;
+import service.strategy.slotAllocationStrategy.SlotAllocationStrategy;
 
 import java.util.List;
 
