@@ -1,5 +1,7 @@
 package models;
 
+import models.constants.VehicleType;
+
 public class Vehicle extends BaseModel{
     private String number;
     private String name;

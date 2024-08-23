@@ -1,5 +1,7 @@
 package models;
 
+import models.constants.TicketStatus;
+
 import java.time.LocalDateTime;
 
 public class Ticket extends BaseModel {

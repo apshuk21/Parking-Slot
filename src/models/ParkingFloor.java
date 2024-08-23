@@ -1,5 +1,7 @@
 package models;
 
+import models.constants.ParkingFloorStatus;
+
 import java.util.List;
 
 public class ParkingFloor extends BaseModel {

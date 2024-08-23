@@ -1,5 +1,7 @@
 package models;
 
+import models.constants.ParkingLotStatus;
+import models.constants.VehicleType;
 import strategies.BillCalculationStrategy;
 import strategies.SlotAllocationStrategy;
 

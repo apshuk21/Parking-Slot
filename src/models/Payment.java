@@ -1,5 +1,8 @@
 package models;
 
+import models.constants.PaymentMode;
+import models.constants.PaymentStatus;
+
 public class Payment extends BaseModel{
     private int amount;
     private PaymentMode paymentMode;
