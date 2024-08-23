@@ -1,0 +1,5 @@
+package models;
+
+public enum ParkingSlotStatus {
+    AVAILABLE, NOT_AVAILABLE, BLOCKED;
+}
