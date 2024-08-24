@@ -7,8 +7,6 @@ public class Gate extends BaseModel {
     private String name;
     private String gateNumber;
     private GateType type;
-    private int floorNumber;
-    private int parkingLotId;
     private GateStatus status;
     private Operator operator;
 
@@ -34,22 +32,6 @@ public class Gate extends BaseModel {
 
     public void setType(GateType type) {
         this.type = type;
-    }
-
-    public int getFloorNumber() {
-        return floorNumber;
-    }
-
-    public void setFloorNumber(int floorNumber) {
-        this.floorNumber = floorNumber;
-    }
-
-    public int getParkingLotId() {
-        return parkingLotId;
-    }
-
-    public void setParkingLotId(int parkingLotId) {
-        this.parkingLotId = parkingLotId;
     }
 
     public GateStatus getStatus() {

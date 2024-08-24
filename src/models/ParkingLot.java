@@ -1,7 +1,6 @@
 package models;
 
 import models.constants.ParkingLotStatus;
-import models.constants.VehicleType;
 import service.strategy.billCalculationStrategy.BillCalculationStrategy;
 import service.strategy.slotAllocationStrategy.SlotAllocationStrategy;
 
@@ -11,8 +10,9 @@ public class ParkingLot extends BaseModel {
     private String name;
     private String address;
     private List<ParkingFloor> parkingFloors;
+    private List<Gate> gates;
     private ParkingLotStatus parkingLotStatus;
-    private List<VehicleType> supportedVehicleTypes;
     private SlotAllocationStrategy slotAllocationStrategy;
     private BillCalculationStrategy billCalculationStrategy;
+    private List<SupportedVehicleType> supportedVehicleTypes;
 }

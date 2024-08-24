@@ -1,5 +1,5 @@
 package models.constants;
 
 public enum PaymentMode {
-    CASH, ONLINE;
+    CASH, CARD, UPI;
 }

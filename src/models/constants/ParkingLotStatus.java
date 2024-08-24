@@ -1,5 +1,5 @@
 package models.constants;
 
 public enum ParkingLotStatus {
-    OPEN, CLOSED, FULL;
+    OPEN, CLOSED, FILLED, UNDER_MAINTENANCE;
 }

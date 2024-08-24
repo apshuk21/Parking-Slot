@@ -8,5 +8,4 @@ public class ParkingSlot extends BaseModel {
     private VehicleType vehicleType;
     private ParkingSlotStatus parkingSlotStatus;
     private Vehicle vehicle;
-    private ParkingFloor parkingFloor;
 }

@@ -10,6 +10,12 @@ public class Ticket extends BaseModel {
     private ParkingSlot parkingSlot;
     private Gate entryGate;
     private TicketStatus ticketStatus;
+    /**
+     * Gate will contain the current operator at the gate, which might change with time.
+     * So, we don't trust the Gate object to find the operator details, as it changes with time.
+     * This operator will contain the operator details, which was present when the ticket was issued
+     */
+    private Operator operator;
 
     public LocalDateTime getEntryTime() {
         return entryTime;
@@ -49,5 +55,13 @@ public class Ticket extends BaseModel {
 
     public void setTicketStatus(TicketStatus ticketStatus) {
         this.ticketStatus = ticketStatus;
+    }
+
+    public Operator getOperator() {
+        return operator;
+    }
+
+    public void setOperator(Operator operator) {
+        this.operator = operator;
     }
 }

@@ -7,6 +7,6 @@ import java.util.List;
 public class ParkingFloor extends BaseModel {
     private int floorNumber;
     private List<ParkingSlot> parkingSlots;
-    private List<Gate> gates;
     private ParkingFloorStatus parkingFloorStatus;
+    private List<SupportedVehicleType> supportedVehicleTypes;
 }

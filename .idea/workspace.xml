@@ -4,19 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a08005e-ac90-4a24-8d91-edf70f605dff" name="Changes" comment="Refactor the constants into the models">
-      <change afterPath="$PROJECT_DIR$/src/exception/GateNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ParkingFloorNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ParkingLotNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ParkingSlotNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/TicketNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/GateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ParkingFloorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ParkingLotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/ParkingSlotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/TicketRepository.java" afterDir="false" />
+    <list default="true" id="8a08005e-ac90-4a24-8d91-edf70f605dff" name="Changes" comment="Add the repositories">
+      <change afterPath="$PROJECT_DIR$/src/controller/FloorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/IssueTicketRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/IssueTicketResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/SupportedVehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/TicketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ParkingFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ParkingSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/constants/GateStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/constants/GateStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/constants/ParkingFloorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/constants/ParkingFloorStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/constants/ParkingLotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/constants/ParkingLotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/constants/PaymentMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/constants/PaymentMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/constants/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/constants/PaymentStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +81,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="service" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724345747098</updated>
-      <workItem from="1724345748203" duration="9796000" />
+      <workItem from="1724345748203" duration="19802000" />
     </task>
     <task id="LOCAL-00001" summary="Add the models">
       <option name="closed" value="true" />
@@ -104,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724380565785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add the repositories">
+      <option name="closed" value="true" />
+      <created>1724416527346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724416527346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add the models" />
     <MESSAGE value="Refactor the constants into the models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor the constants into the models" />
+    <MESSAGE value="Add the repositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the repositories" />
   </component>
 </project>

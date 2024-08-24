@@ -1,5 +1,5 @@
 package models.constants;
 
 public enum GateStatus {
-    OPEN, CLOSE;
+    OPEN, CLOSE, UNDER_MAINTENANCE;
 }

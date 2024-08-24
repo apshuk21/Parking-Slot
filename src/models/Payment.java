@@ -3,8 +3,11 @@ package models;
 import models.constants.PaymentMode;
 import models.constants.PaymentStatus;
 
+import java.time.LocalDateTime;
+
 public class Payment extends BaseModel{
     private int amount;
+    private LocalDateTime date;
     private PaymentMode paymentMode;
     private String transactionId;
     private PaymentStatus paymentStatus;

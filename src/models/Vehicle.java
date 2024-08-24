@@ -3,40 +3,31 @@ package models;
 import models.constants.VehicleType;
 
 public class Vehicle extends BaseModel{
-    private String number;
-    private String name;
-    private String color;
-    private VehicleType type;
+    private String licensePlate;
+    private String ownerName;
+    private VehicleType vehicleType;
 
-    public String getNumber() {
-        return number;
+    public String getLicensePlate() {
+        return licensePlate;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setLicensePlate(String licensePlate) {
+        this.licensePlate = licensePlate;
     }
 
-    public String getName() {
-        return name;
+    public String getOwnerName() {
+        return ownerName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
     }
 
-    public String getColor() {
-        return color;
+    public VehicleType getVehicleType() {
+        return vehicleType;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public VehicleType getType() {
-        return type;
-    }
-
-    public void setType(VehicleType type) {
-        this.type = type;
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
     }
 }

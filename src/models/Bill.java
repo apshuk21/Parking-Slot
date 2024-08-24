@@ -1,12 +1,15 @@
 package models;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class Bill extends BaseModel {
     private LocalDate exitTime;
     private int billAmount;
     private Ticket ticket;
     private Gate exitGate;
+    private Operator operator;
+    private List<Payment> payments;
 
     public LocalDate getExitTime() {
         return exitTime;
